@@ -1,0 +1,36 @@
+{
+  "name": "hybrid-scam-shield",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Hybrid Scam Shield — 3-second scam & phishing triage with on-device Gemini Nano and cloud Gemini escalation via Firebase AI Logic.",
+  "license": "Apache-2.0",
+  "keywords": [
+    "firebase-ai-logic",
+    "hybrid-inference",
+    "gemini-nano",
+    "chrome-extension",
+    "phishing",
+    "scam-detection",
+    "Privacy"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run typecheck && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "firebase": "^13.4.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.8",
+    "@types/node": "^20.19.0",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.6",
+    "vitest": "^3.2.7"
+  }
+}
