@@ -78,7 +78,7 @@ an on-device alarm. It runs as a Chrome extension and as a web demo anyone can j
 
 ## Links to fill in before submitting
 
-- Repository: `<add after pushing>`
+- Repository: <https://github.com/th3won/hybrid-scam-shield>
 - Deployed web demo: `<add hosting URL>`
 - Demo video: `<add YouTube/Vimeo URL>`
 

@@ -109,7 +109,7 @@ prompt-injection sample preset to demonstrate it.
 Requirements: **Node 20+** (verified on 20.18.1) and a Chromium browser for the extension.
 
 ```bash
-git clone <your-fork> hybrid-scam-shield
+git clone https://github.com/th3won/hybrid-scam-shield.git
 cd hybrid-scam-shield
 npm install
 cp .env.example .env     # optional — leave empty to run the demo heuristic
